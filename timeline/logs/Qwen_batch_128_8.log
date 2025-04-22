@@ -1,0 +1,2071 @@
+(qwen) root@NSL-A800:/workspace/SuperSpec# python batch_main.py
+/root/miniconda3/envs/qwen/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/root/miniconda3/envs/qwen/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/root/miniconda3/envs/qwen/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/root/miniconda3/envs/qwen/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards: 100%|█████████████████████████████████████| 2/2 [00:06<00:00,  3.18s/it]
+Loading checkpoint shards: 100%|███████████████████████████████████| 38/38 [00:51<00:00,  1.36s/it]
+/root/miniconda3/envs/qwen/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+#prompt to gpu_0        @1718268265.5859997
+$prompt to gpu_0        @1718268265.6050532
+#process 0 task queue   @1718268265.6054444
+
+#prompt to gpu_1        @1718268265.6072671
+$process 0 task queue   @1718268265.6091392
+#process 0 infer prepare        @1718268265.609202
+$process 0 infer prepare        @1718268265.6095157
+#process 0 infer one    @1718268265.60955
+$prompt to gpu_1        @1718268265.628373
+#process 1 task queue   @1718268265.6286485
+
+#prompt to gpu_2        @1718268265.629932
+$process 1 task queue   @1718268265.632741
+#process 1 infer prepare        @1718268265.632841
+$process 1 infer prepare        @1718268265.6332037
+#process 1 infer one    @1718268265.6332457
+$prompt to gpu_2        @1718268265.6510296
+#process 2 task queue   @1718268265.6513042
+$process 2 task queue   @1718268265.6552455
+#process 2 infer prepare        @1718268265.6553702
+$process 2 infer prepare        @1718268265.655746
+#process 2 infer one    @1718268265.6557915
+$process 1 infer one    @1718268265.9002614
+#process 1 infer two    @1718268265.9003031
+$process 1 infer two    @1718268265.9278245
+#process 1 infer three  @1718268265.9278479
+$process 1 infer three  @1718268265.9467225
+#process 1 infer four   @1718268265.9467466
+$process 1 infer four   @1718268265.96705
+#process 1 infer one    @1718268265.9670727
+$process 2 infer one    @1718268265.9730458
+#process 2 infer two    @1718268265.9730725
+$process 0 infer one    @1718268265.9841464
+#process 0 infer two    @1718268265.9841962
+$process 1 infer one    @1718268265.985854
+#process 1 infer two    @1718268265.9858744
+$process 1 infer two    @1718268266.0044956
+#process 1 infer three  @1718268266.0045152
+$process 0 infer two    @1718268266.021786
+#process 0 infer three  @1718268266.0218096
+$process 2 infer two    @1718268266.024823
+#process 2 infer three  @1718268266.0248482
+$process 1 infer three  @1718268266.025607
+#process 1 infer four   @1718268266.0256267
+$process 0 infer three  @1718268266.0415993
+#process 0 infer four   @1718268266.0416198
+$process 1 infer four   @1718268266.0442274
+$process 2 infer three  @1718268266.0572798
+#process 2 infer four   @1718268266.0573006
+$process 0 infer four   @1718268266.0609982
+#process 0 infer one    @1718268266.0610178
+$process 0 infer one    @1718268266.0807416
+#process 0 infer two    @1718268266.0807605
+$process 2 infer four   @1718268266.0890071
+#process 2 infer one    @1718268266.0890265
+$process 0 infer two    @1718268266.1001618
+#process 0 infer three  @1718268266.100181
+$process 0 infer three  @1718268266.1197524
+#process 0 infer four   @1718268266.1197705
+$process 2 infer one    @1718268266.1231585
+#process 2 infer two    @1718268266.123178
+$process 0 infer four   @1718268266.1391842
+$process 2 infer two    @1718268266.156017
+#process 2 infer three  @1718268266.1560361
+$process 2 infer three  @1718268266.1873984
+#process 2 infer four   @1718268266.1874168
+$process 2 infer four   @1718268266.2211707
+#collect        @1718268266.2300813
+$collect        @1718268266.310096
+#llm prepare@1718268266.3101327
+$llm prepare@1718268266.319483
+#llm forward@1718268266.3195045
+verify finished         @1718268267.020422
+$llm forward    @1718268267.0204704
+#llm result     @1718268267.0204778
+
+#prompt to gpu_0        @1718268267.0710773
+$prompt to gpu_0        @1718268267.071192
+#process 0 task queue   @1718268267.0713007
+
+#prompt to gpu_1        @1718268267.0713131
+$prompt to gpu_1        @1718268267.0723777
+#process 1 task queue   @1718268267.0725524
+$process 0 task queue   @1718268267.0728552
+#process 0 infer prepare        @1718268267.0729067
+
+#prompt to gpu_2        @1718268267.0731142
+$prompt to gpu_2        @1718268267.0734184
+#process 2 task queue   @1718268267.0735085
+$process 0 infer prepare        @1718268267.0735075
+#process 0 infer one    @1718268267.0735533
+$process 1 task queue   @1718268267.0737288
+#process 1 infer prepare        @1718268267.0738053
+$process 1 infer prepare        @1718268267.074515
+#process 1 infer one    @1718268267.074556
+$process 2 task queue   @1718268267.0747137
+#process 2 infer prepare        @1718268267.0747702
+$process 2 infer prepare        @1718268267.0754821
+#process 2 infer one    @1718268267.075519
+$process 1 infer one    @1718268267.1128447
+#process 1 infer two    @1718268267.112868
+$process 0 infer one    @1718268267.1160886
+#process 0 infer two    @1718268267.11611
+$process 2 infer one    @1718268267.1186156
+#process 2 infer two    @1718268267.1186366
+$process 1 infer two    @1718268267.1326742
+#process 1 infer three  @1718268267.1326919
+$process 0 infer two    @1718268267.1360154
+#process 0 infer three  @1718268267.1360362
+$process 2 infer two    @1718268267.150504
+#process 2 infer three  @1718268267.1505227
+$process 1 infer three  @1718268267.1536522
+#process 1 infer four   @1718268267.153671
+$process 0 infer three  @1718268267.1557992
+#process 0 infer four   @1718268267.1558182
+$process 1 infer four   @1718268267.1729736
+#process 1 infer one    @1718268267.172992
+$process 0 infer four   @1718268267.175261
+#process 0 infer one    @1718268267.1752799
+$process 2 infer three  @1718268267.1841288
+#process 2 infer four   @1718268267.1841474
+$process 1 infer one    @1718268267.191779
+#process 1 infer two    @1718268267.1917963
+$process 0 infer one    @1718268267.1948483
+#process 0 infer two    @1718268267.1948671
+$process 1 infer two    @1718268267.210832
+#process 1 infer three  @1718268267.2108502
+$process 0 infer two    @1718268267.2143185
+#process 0 infer three  @1718268267.214337
+$process 2 infer four   @1718268267.2157269
+#process 2 infer one    @1718268267.2157457
+$process 1 infer three  @1718268267.2296133
+#process 1 infer four   @1718268267.2296305
+$process 0 infer three  @1718268267.233618
+#process 0 infer four   @1718268267.2336364
+$process 2 infer one    @1718268267.2474904
+#process 2 infer two    @1718268267.2475092
+$process 1 infer four   @1718268267.2486799
+$process 0 infer four   @1718268267.2533174
+$process 2 infer two    @1718268267.2823389
+#process 2 infer three  @1718268267.2823577
+$process 2 infer three  @1718268267.3143396
+#process 2 infer four   @1718268267.3143585
+$process 2 infer four   @1718268267.346257
+#collect        @1718268267.3536983
+$collect        @1718268267.3547404
+#llm prepare@1718268267.3547788
+$llm prepare@1718268267.3558667
+#llm forward@1718268267.355898
+verify finished         @1718268267.6682308
+$llm forward    @1718268267.668275
+#llm result     @1718268267.668282
+-----------------------------------warm up end---------------------------------------
+Processing sentences:   0%|                                                  | 0/1 [00:00<?, ?it/s]
+#prompt to gpu_0        @1718268267.6735048
+$prompt to gpu_0        @1718268267.6735742
+#process 0 task queue   @1718268267.6736405
+
+#prompt to gpu_1        @1718268267.67365
+$prompt to gpu_1        @1718268267.6744974
+#process 1 task queue   @1718268267.6745253
+
+#prompt to gpu_2        @1718268267.6745338
+$prompt to gpu_2        @1718268267.6751
+#process 2 task queue   @1718268267.675125
+$process 0 task queue   @1718268267.6752806
+#process 0 infer prepare        @1718268267.6753247
+$process 1 task queue   @1718268267.6762114
+#process 1 infer prepare        @1718268267.6762629
+$process 0 infer prepare        @1718268267.676401
+#process 0 infer one    @1718268267.6764455
+$process 2 task queue   @1718268267.6765292
+#process 2 infer prepare        @1718268267.676576
+$process 1 infer prepare        @1718268267.6772614
+#process 1 infer one    @1718268267.6773086
+$process 2 infer prepare        @1718268267.6775844
+#process 2 infer one    @1718268267.6776264
+$process 0 infer one    @1718268267.7153986
+#process 0 infer two    @1718268267.7154195
+$process 1 infer one    @1718268267.715684
+#process 1 infer two    @1718268267.715706
+$process 2 infer one    @1718268267.7303276
+#process 2 infer two    @1718268267.730346
+$process 1 infer two    @1718268267.734844
+#process 1 infer three  @1718268267.7348614
+$process 0 infer two    @1718268267.7383306
+#process 0 infer three  @1718268267.738349
+$process 1 infer three  @1718268267.7534986
+#process 1 infer four   @1718268267.753516
+$process 0 infer three  @1718268267.757761
+#process 0 infer four   @1718268267.757785
+$process 2 infer two    @1718268267.7621162
+#process 2 infer three  @1718268267.762135
+$process 1 infer four   @1718268267.7722445
+#process 1 infer one    @1718268267.7722628
+$process 0 infer four   @1718268267.7771952
+#process 0 infer one    @1718268267.777213
+$process 1 infer one    @1718268267.793062
+#process 1 infer two    @1718268267.7930815
+$process 2 infer three  @1718268267.7940383
+#process 2 infer four   @1718268267.7940578
+$process 0 infer one    @1718268267.7965956
+#process 0 infer two    @1718268267.7966135
+$process 1 infer two    @1718268267.8118033
+#process 1 infer three  @1718268267.8118224
+$process 0 infer two    @1718268267.8159728
+#process 0 infer three  @1718268267.8159907
+$process 2 infer four   @1718268267.8257036
+#process 2 infer one    @1718268267.8257234
+$process 1 infer three  @1718268267.8305314
+#process 1 infer four   @1718268267.8305485
+$process 0 infer three  @1718268267.835408
+#process 0 infer four   @1718268267.8354256
+$process 1 infer four   @1718268267.849261
+$process 0 infer four   @1718268267.85478
+$process 2 infer one    @1718268267.8602474
+#process 2 infer two    @1718268267.8602667
+$process 2 infer two    @1718268267.8918507
+#process 2 infer three  @1718268267.8918695
+$process 2 infer three  @1718268267.9234405
+#process 2 infer four   @1718268267.923458
+$process 2 infer four   @1718268267.9581685
+
+ prefix_l: 0
+
+#collect        @1718268267.96791
+$collect        @1718268267.9686482
+#llm prepare@1718268267.968678
+$llm prepare@1718268267.9696963
+#llm forward@1718268267.9697282
+verify finished         @1718268268.0967915
+$llm forward    @1718268268.096832
+#llm result     @1718268268.096839
+batch_winner_index = 2
+-----------------------------------epoch 0 end---------------------------------------
+
+#prompt to gpu_0        @1718268268.1083632
+$prompt to gpu_0        @1718268268.1084309
+#process 0 task queue   @1718268268.1084774
+
+#prompt to gpu_1        @1718268268.1084867
+$prompt to gpu_1        @1718268268.1092367
+#process 1 task queue   @1718268268.1092658
+
+#prompt to gpu_2        @1718268268.1092737
+$prompt to gpu_2        @1718268268.1098547
+#process 2 task queue   @1718268268.1098816
+$process 0 task queue   @1718268268.1101239
+#process 0 infer prepare        @1718268268.1101685
+$process 1 task queue   @1718268268.1109993
+#process 1 infer prepare        @1718268268.111045
+$process 0 infer prepare        @1718268268.111085
+#process 0 infer one    @1718268268.1111293
+$process 2 task queue   @1718268268.1113887
+#process 2 infer prepare        @1718268268.1114354
+$process 1 infer prepare        @1718268268.1117501
+#process 1 infer one    @1718268268.1117914
+$process 2 infer prepare        @1718268268.112147
+#process 2 infer one    @1718268268.1121902
+$process 0 infer one    @1718268268.1607256
+#process 0 infer two    @1718268268.1607468
+$process 1 infer one    @1718268268.1710405
+#process 1 infer two    @1718268268.1710646
+$process 2 infer one    @1718268268.1776984
+#process 2 infer two    @1718268268.1777203
+$process 0 infer two    @1718268268.1802936
+#process 0 infer three  @1718268268.1803124
+$process 1 infer two    @1718268268.1901636
+#process 1 infer three  @1718268268.1901836
+$process 0 infer three  @1718268268.2014143
+#process 0 infer four   @1718268268.2014332
+$process 1 infer three  @1718268268.2091477
+#process 1 infer four   @1718268268.209166
+$process 2 infer two    @1718268268.2120316
+#process 2 infer three  @1718268268.2120507
+$process 0 infer four   @1718268268.2208793
+#process 0 infer one    @1718268268.2208982
+$process 1 infer four   @1718268268.2280781
+#process 1 infer one    @1718268268.228097
+$process 0 infer one    @1718268268.2401936
+#process 0 infer two    @1718268268.2402112
+$process 2 infer three  @1718268268.2438602
+#process 2 infer four   @1718268268.243879
+$process 1 infer one    @1718268268.2470381
+#process 1 infer two    @1718268268.2470567
+$process 0 infer two    @1718268268.259573
+#process 0 infer three  @1718268268.259591
+$process 1 infer two    @1718268268.2690334
+#process 1 infer three  @1718268268.2690518
+$process 2 infer four   @1718268268.2752206
+#process 2 infer one    @1718268268.2752388
+$process 0 infer three  @1718268268.2789326
+#process 0 infer four   @1718268268.2789507
+$process 1 infer three  @1718268268.2883253
+#process 1 infer four   @1718268268.288344
+$process 0 infer four   @1718268268.298299
+$process 2 infer one    @1718268268.306634
+#process 2 infer two    @1718268268.3066516
+$process 1 infer four   @1718268268.3081527
+$process 2 infer two    @1718268268.3380086
+#process 2 infer three  @1718268268.3380258
+$process 2 infer three  @1718268268.369699
+#process 2 infer four   @1718268268.3697166
+$process 2 infer four   @1718268268.4023342
+
+ prefix_l: 2
+
+#collect        @1718268268.4124832
+$collect        @1718268268.4132717
+#llm prepare@1718268268.413302
+$llm prepare@1718268268.4143622
+#llm forward@1718268268.4143937
+verify finished         @1718268268.5609689
+$llm forward    @1718268268.5610116
+#llm result     @1718268268.5610182
+batch_winner_index = 1
+-----------------------------------epoch 1 end---------------------------------------
+
+#prompt to gpu_0        @1718268268.5803978
+$prompt to gpu_0        @1718268268.580463
+#process 0 task queue   @1718268268.5805056
+
+#prompt to gpu_1        @1718268268.5805154
+$prompt to gpu_1        @1718268268.5810242
+#process 1 task queue   @1718268268.581051
+
+#prompt to gpu_2        @1718268268.5810583
+$prompt to gpu_2        @1718268268.5816295
+#process 2 task queue   @1718268268.5816524
+$process 0 task queue   @1718268268.5818925
+#process 0 infer prepare        @1718268268.5819402
+$process 0 infer prepare        @1718268268.5828116
+$process 1 task queue   @1718268268.582817
+#process 0 infer one    @1718268268.5828545
+#process 1 infer prepare        @1718268268.5828722
+$process 2 task queue   @1718268268.583224
+#process 2 infer prepare        @1718268268.5832791
+$process 1 infer prepare        @1718268268.583642
+#process 1 infer one    @1718268268.5836856
+$process 2 infer prepare        @1718268268.5839624
+#process 2 infer one    @1718268268.5840003
+$process 0 infer one    @1718268268.6232498
+#process 0 infer two    @1718268268.623272
+$process 1 infer one    @1718268268.6239936
+#process 1 infer two    @1718268268.6240149
+$process 0 infer two    @1718268268.642846
+#process 0 infer three  @1718268268.6428645
+$process 2 infer one    @1718268268.6453412
+#process 2 infer two    @1718268268.645372
+$process 1 infer two    @1718268268.645946
+#process 1 infer three  @1718268268.645963
+$process 0 infer three  @1718268268.662266
+#process 0 infer four   @1718268268.6622837
+$process 1 infer three  @1718268268.6647587
+#process 1 infer four   @1718268268.6647766
+$process 2 infer two    @1718268268.677047
+#process 2 infer three  @1718268268.6770651
+$process 0 infer four   @1718268268.6815894
+#process 0 infer one    @1718268268.6816082
+$process 1 infer four   @1718268268.6833906
+#process 1 infer one    @1718268268.683409
+$process 1 infer one    @1718268268.7021282
+$process 0 infer one    @1718268268.7021365
+#process 1 infer two    @1718268268.7021456
+#process 0 infer two    @1718268268.702156
+$process 2 infer three  @1718268268.7087207
+#process 2 infer four   @1718268268.7087388
+$process 1 infer two    @1718268268.72094
+#process 1 infer three  @1718268268.7209575
+$process 0 infer two    @1718268268.7215974
+#process 0 infer three  @1718268268.7216158
+$process 1 infer three  @1718268268.7400987
+#process 1 infer four   @1718268268.7401183
+$process 0 infer three  @1718268268.7408793
+#process 0 infer four   @1718268268.740898
+$process 2 infer four   @1718268268.74342
+#process 2 infer one    @1718268268.7434459
+$process 1 infer four   @1718268268.7603292
+$process 0 infer four   @1718268268.7604342
+$process 2 infer one    @1718268268.7764802
+#process 2 infer two    @1718268268.776499
+$process 2 infer two    @1718268268.8079658
+#process 2 infer three  @1718268268.8079839
+$process 2 infer three  @1718268268.8399458
+#process 2 infer four   @1718268268.8399644
+$process 2 infer four   @1718268268.87642
+
+ prefix_l: 0
+
+#collect        @1718268268.8890283
+$collect        @1718268268.8898246
+#llm prepare@1718268268.8898554
+$llm prepare@1718268268.8908439
+#llm forward@1718268268.8908741
+verify finished         @1718268269.0216246
+$llm forward    @1718268269.0216591
+#llm result     @1718268269.0216656
+batch_winner_index = 2
+-----------------------------------epoch 2 end---------------------------------------
+
+#prompt to gpu_0        @1718268269.0315797
+$prompt to gpu_0        @1718268269.0316553
+#process 0 task queue   @1718268269.031697
+
+#prompt to gpu_1        @1718268269.031707
+$prompt to gpu_1        @1718268269.0322053
+#process 1 task queue   @1718268269.0322309
+
+#prompt to gpu_2        @1718268269.0322382
+$process 0 task queue        @1718268269.032557
+#process 0 infer prepare        @1718268269.0326002
+
+$prompt to gpu_2        @1718268269.0327046
+#process 2 task queue   @1718268269.0327294
+$process 0 infer prepare        @1718268269.0329845
+#process 0 infer one    @1718268269.0330184
+$process 1 task queue   @1718268269.0336254
+#process 1 infer prepare        @1718268269.0336785
+$process 2 task queue   @1718268269.0343294
+#process 2 infer prepare        @1718268269.0343795
+$process 1 infer prepare        @1718268269.0345483
+#process 1 infer one    @1718268269.0345955
+$process 2 infer prepare        @1718268269.0351782
+#process 2 infer one    @1718268269.0352206
+$process 0 infer one    @1718268269.0749223
+#process 0 infer two    @1718268269.0749443
+$process 1 infer one    @1718268269.0775924
+#process 1 infer two    @1718268269.0776114
+$process 2 infer one    @1718268269.0873277
+#process 2 infer two    @1718268269.0873454
+$process 0 infer two    @1718268269.0949755
+#process 0 infer three  @1718268269.0949938
+$process 1 infer two    @1718268269.0967271
+#process 1 infer three  @1718268269.096745
+$process 0 infer three  @1718268269.1143932
+#process 0 infer four   @1718268269.1144114
+$process 1 infer three  @1718268269.1154292
+#process 1 infer four   @1718268269.1154463
+$process 2 infer two    @1718268269.118579
+#process 2 infer three  @1718268269.118596
+$process 0 infer four   @1718268269.1337667
+#process 0 infer one    @1718268269.1337907
+$process 1 infer four   @1718268269.135582
+#process 1 infer one    @1718268269.1356084
+$process 2 infer three  @1718268269.1497245
+#process 2 infer four   @1718268269.1497416
+$process 0 infer one    @1718268269.1531317
+#process 0 infer two    @1718268269.1531496
+$process 1 infer one    @1718268269.1544616
+#process 1 infer two    @1718268269.154479
+$process 1 infer two    @1718268269.173349
+#process 1 infer three  @1718268269.1733656
+$process 0 infer two    @1718268269.1737485
+#process 0 infer three  @1718268269.1737814
+$process 2 infer four   @1718268269.1808472
+#process 2 infer one    @1718268269.180865
+$process 1 infer three  @1718268269.192309
+#process 1 infer four   @1718268269.192326
+$process 0 infer three  @1718268269.193218
+#process 0 infer four   @1718268269.1932366
+$process 1 infer four   @1718268269.2113032
+$process 2 infer one    @1718268269.2121055
+#process 2 infer two    @1718268269.2121227
+$process 0 infer four   @1718268269.2127476
+$process 2 infer two    @1718268269.244925
+#process 2 infer three  @1718268269.2449417
+$process 2 infer three  @1718268269.2761254
+#process 2 infer four   @1718268269.276143
+$process 2 infer four   @1718268269.3077276
+
+ prefix_l: 6
+
+#collect        @1718268269.3193595
+$collect        @1718268269.320148
+#llm prepare@1718268269.3201797
+$llm prepare@1718268269.3211482
+#llm forward@1718268269.3211784
+verify finished         @1718268269.4551375
+$llm forward    @1718268269.4551728
+#llm result     @1718268269.45518
+batch_winner_index = 0
+-----------------------------------epoch 3 end---------------------------------------
+
+#prompt to gpu_0        @1718268269.4684565
+$prompt to gpu_0        @1718268269.4685357
+#process 0 task queue   @1718268269.468578
+
+#prompt to gpu_1        @1718268269.4685867
+$prompt to gpu_1        @1718268269.4691062
+#process 1 task queue   @1718268269.469137
+
+#prompt to gpu_2        @1718268269.4691439
+$process 0 task queue        @1718268269.4694562
+#process 0 infer prepare        @1718268269.4694965
+
+$prompt to gpu_2        @1718268269.4696593
+#process 2 task queue   @1718268269.4696844
+$process 0 infer prepare        @1718268269.4699306
+#process 0 infer one    @1718268269.469966
+$process 1 task queue   @1718268269.4706533
+#process 1 infer prepare        @1718268269.470706
+$process 2 task queue   @1718268269.471188
+#process 2 infer prepare        @1718268269.471231
+$process 1 infer prepare        @1718268269.4714756
+#process 1 infer one    @1718268269.4715183
+$process 2 infer prepare        @1718268269.471894
+#process 2 infer one    @1718268269.471932
+$process 0 infer one    @1718268269.5114057
+#process 0 infer two    @1718268269.5114262
+$process 1 infer one    @1718268269.5156374
+#process 1 infer two    @1718268269.515666
+$process 2 infer one    @1718268269.5284145
+#process 2 infer two    @1718268269.528433
+$process 0 infer two    @1718268269.5312452
+#process 0 infer three  @1718268269.5312636
+$process 1 infer two    @1718268269.5352223
+#process 1 infer three  @1718268269.5352395
+$process 0 infer three  @1718268269.5506089
+#process 0 infer four   @1718268269.550627
+$process 1 infer three  @1718268269.554194
+#process 1 infer four   @1718268269.554212
+$process 2 infer two    @1718268269.5600893
+#process 2 infer three  @1718268269.5601077
+$process 0 infer four   @1718268269.5699263
+#process 0 infer one    @1718268269.5699444
+$process 1 infer four   @1718268269.5729504
+#process 1 infer one    @1718268269.5729685
+$process 0 infer one    @1718268269.5892437
+#process 0 infer two    @1718268269.5892615
+$process 2 infer three  @1718268269.5918736
+#process 2 infer four   @1718268269.5918925
+$process 1 infer one    @1718268269.5920641
+#process 1 infer two    @1718268269.5920823
+$process 0 infer two    @1718268269.6086516
+#process 0 infer three  @1718268269.6086698
+$process 1 infer two    @1718268269.6125941
+#process 1 infer three  @1718268269.612612
+$process 2 infer four   @1718268269.627295
+#process 2 infer one    @1718268269.6273136
+$process 0 infer three  @1718268269.6279602
+#process 0 infer four   @1718268269.6279783
+$process 1 infer three  @1718268269.6316926
+#process 1 infer four   @1718268269.631711
+$process 0 infer four   @1718268269.6475987
+$process 1 infer four   @1718268269.6504202
+$process 2 infer one    @1718268269.6601324
+#process 2 infer two    @1718268269.6601515
+$process 2 infer two    @1718268269.6920238
+#process 2 infer three  @1718268269.692043
+$process 2 infer three  @1718268269.7257135
+#process 2 infer four   @1718268269.7257318
+$process 2 infer four   @1718268269.7577846
+
+ prefix_l: 4
+
+#collect        @1718268269.773406
+$collect        @1718268269.7742531
+#llm prepare@1718268269.7742863
+$llm prepare@1718268269.7752047
+#llm forward@1718268269.7752275
+verify finished         @1718268269.903158
+$llm forward    @1718268269.903191
+#llm result     @1718268269.9031978
+batch_winner_index = 2
+-----------------------------------epoch 4 end---------------------------------------
+
+#prompt to gpu_0        @1718268269.9155316
+$prompt to gpu_0        @1718268269.9156046
+#process 0 task queue   @1718268269.915657
+
+#prompt to gpu_1        @1718268269.9156666
+$prompt to gpu_1        @1718268269.9164557
+#process 1 task queue   @1718268269.9165194
+
+#prompt to gpu_2        @1718268269.9165318
+$prompt to gpu_2        @1718268269.9170403
+#process 2 task queue   @1718268269.917099
+$process 0 task queue   @1718268269.9172375
+#process 0 infer prepare        @1718268269.9172804
+$process 0 infer prepare        @1718268269.9180763
+#process 0 infer one    @1718268269.9181154
+$process 1 task queue   @1718268269.9181666
+#process 1 infer prepare        @1718268269.9182153
+$process 2 task queue   @1718268269.9185514
+#process 2 infer prepare        @1718268269.9186058
+$process 1 infer prepare        @1718268269.9192264
+#process 1 infer one    @1718268269.9192696
+$process 2 infer prepare        @1718268269.9193833
+#process 2 infer one    @1718268269.9194283
+$process 0 infer one    @1718268269.9578664
+#process 0 infer two    @1718268269.9578867
+$process 1 infer one    @1718268269.9606366
+#process 1 infer two    @1718268269.9606586
+$process 2 infer one    @1718268269.9745808
+#process 2 infer two    @1718268269.9746008
+$process 0 infer two    @1718268269.9778893
+#process 0 infer three  @1718268269.9779067
+$process 1 infer two    @1718268269.9817338
+#process 1 infer three  @1718268269.9817526
+$process 0 infer three  @1718268269.9972944
+#process 0 infer four   @1718268269.9973123
+$process 1 infer three  @1718268270.0008438
+#process 1 infer four   @1718268270.0008621
+$process 2 infer two    @1718268270.0101988
+#process 2 infer three  @1718268270.0102174
+$process 0 infer four   @1718268270.0165873
+#process 0 infer one    @1718268270.0166051
+$process 1 infer four   @1718268270.01982
+#process 1 infer one    @1718268270.0198388
+$process 0 infer one    @1718268270.0359056
+#process 0 infer two    @1718268270.0359247
+$process 1 infer one    @1718268270.038745
+#process 1 infer two    @1718268270.0387633
+$process 2 infer three  @1718268270.0435236
+#process 2 infer four   @1718268270.0435429
+$process 0 infer two    @1718268270.0552661
+#process 0 infer three  @1718268270.055284
+$process 1 infer two    @1718268270.0578759
+#process 1 infer three  @1718268270.057894
+$process 0 infer three  @1718268270.0745893
+#process 0 infer four   @1718268270.074607
+$process 2 infer four   @1718268270.0767484
+#process 2 infer one    @1718268270.076767
+$process 1 infer three  @1718268270.0782745
+#process 1 infer four   @1718268270.0782928
+$process 0 infer four   @1718268270.0962257
+$process 1 infer four   @1718268270.1004605
+$process 2 infer one    @1718268270.1140218
+#process 2 infer two    @1718268270.1140404
+$process 2 infer two    @1718268270.148621
+#process 2 infer three  @1718268270.148639
+$process 2 infer three  @1718268270.1815004
+#process 2 infer four   @1718268270.1815183
+$process 2 infer four   @1718268270.2187862
+
+ prefix_l: 8
+
+#collect        @1718268270.2325315
+$collect        @1718268270.2333105
+#llm prepare@1718268270.2333417
+$llm prepare@1718268270.2343423
+#llm forward@1718268270.2343736
+verify finished         @1718268270.3648524
+$llm forward    @1718268270.3648908
+#llm result     @1718268270.3648977
+batch_winner_index = 0
+-----------------------------------epoch 5 end---------------------------------------
+
+#prompt to gpu_0        @1718268270.3786802
+$prompt to gpu_0        @1718268270.3787634
+#process 0 task queue   @1718268270.3788252
+
+#prompt to gpu_1        @1718268270.3788347
+$prompt to gpu_1        @1718268270.3794158
+#process 1 task queue   @1718268270.3794425
+
+#prompt to gpu_2        @1718268270.37945
+$prompt to gpu_2        @1718268270.379891
+#process 2 task queue   @1718268270.379915
+$process 0 task queue   @1718268270.3802755
+#process 0 infer prepare        @1718268270.380316
+$process 1 task queue   @1718268270.3809004
+#process 1 infer prepare        @1718268270.3809454
+$process 0 infer prepare        @1718268270.3812008
+#process 0 infer one    @1718268270.3812406
+$process 2 task queue   @1718268270.3814592
+#process 2 infer prepare        @1718268270.3815062
+$process 1 infer prepare        @1718268270.381696
+#process 1 infer one    @1718268270.3817372
+$process 2 infer prepare        @1718268270.3823123
+#process 2 infer one    @1718268270.3823667
+$process 0 infer one    @1718268270.4227307
+#process 0 infer two    @1718268270.4227514
+$process 1 infer one    @1718268270.4232528
+#process 1 infer two    @1718268270.4232728
+$process 2 infer one    @1718268270.4391043
+#process 2 infer two    @1718268270.439123
+$process 0 infer two    @1718268270.4425159
+#process 0 infer three  @1718268270.442533
+$process 1 infer two    @1718268270.4434102
+#process 1 infer three  @1718268270.4434297
+$process 0 infer three  @1718268270.4618528
+#process 0 infer four   @1718268270.4618707
+$process 1 infer three  @1718268270.4624357
+#process 1 infer four   @1718268270.4624543
+$process 2 infer two    @1718268270.4722748
+#process 2 infer three  @1718268270.4722931
+$process 0 infer four   @1718268270.481294
+#process 0 infer one    @1718268270.4813113
+$process 1 infer four   @1718268270.4830313
+#process 1 infer one    @1718268270.4830499
+$process 0 infer one    @1718268270.50062
+#process 0 infer two    @1718268270.5006375
+$process 1 infer one    @1718268270.5020754
+#process 1 infer two    @1718268270.5020936
+$process 2 infer three  @1718268270.518892
+#process 2 infer four   @1718268270.518937
+$process 0 infer two    @1718268270.5198643
+#process 0 infer three  @1718268270.5198822
+$process 1 infer two    @1718268270.521261
+#process 1 infer three  @1718268270.5212798
+$process 0 infer three  @1718268270.5391104
+#process 0 infer four   @1718268270.5391288
+$process 1 infer three  @1718268270.5401976
+#process 1 infer four   @1718268270.5402155
+$process 2 infer four   @1718268270.5586843
+#process 2 infer one    @1718268270.5587041
+$process 0 infer four   @1718268270.5587301
+$process 1 infer four   @1718268270.559154
+$process 2 infer one    @1718268270.5920444
+#process 2 infer two    @1718268270.5920696
+$process 2 infer two    @1718268270.6233342
+#process 2 infer three  @1718268270.6233518
+$process 2 infer three  @1718268270.654688
+#process 2 infer four   @1718268270.654706
+$process 2 infer four   @1718268270.6863792
+
+ prefix_l: 0
+
+#collect        @1718268270.7029526
+$collect        @1718268270.7038105
+#llm prepare@1718268270.7038429
+$llm prepare@1718268270.7047944
+#llm forward@1718268270.704818
+verify finished         @1718268270.8355165
+$llm forward    @1718268270.8355503
+#llm result     @1718268270.8355563
+batch_winner_index = 0
+-----------------------------------epoch 6 end---------------------------------------
+
+#prompt to gpu_0        @1718268270.8460066
+$prompt to gpu_0        @1718268270.8460872
+#process 0 task queue   @1718268270.8461366
+
+#prompt to gpu_1        @1718268270.8461456
+$prompt to gpu_1        @1718268270.8467863
+#process 1 task queue   @1718268270.8468146
+
+#prompt to gpu_2        @1718268270.8468225
+$prompt to gpu_2        @1718268270.84736
+#process 2 task queue   @1718268270.8473856
+$process 0 task queue   @1718268270.8475044
+#process 0 infer prepare        @1718268270.847546
+$process 1 task queue   @1718268270.8483434
+#process 1 infer prepare        @1718268270.8483958
+$process 0 infer prepare        @1718268270.8485208
+#process 0 infer one    @1718268270.8485625
+$process 2 task queue   @1718268270.8487792
+#process 2 infer prepare        @1718268270.8488226
+$process 1 infer prepare        @1718268270.8492053
+#process 1 infer one    @1718268270.84925
+$process 2 infer prepare        @1718268270.8495343
+#process 2 infer one    @1718268270.8495762
+$process 0 infer one    @1718268270.886166
+#process 0 infer two    @1718268270.8861868
+$process 1 infer one    @1718268270.8980782
+#process 1 infer two    @1718268270.8981018
+$process 2 infer one    @1718268270.9054852
+#process 2 infer two    @1718268270.905511
+$process 0 infer two    @1718268270.906277
+#process 0 infer three  @1718268270.9062948
+$process 1 infer two    @1718268270.9179966
+#process 1 infer three  @1718268270.9180152
+$process 0 infer three  @1718268270.9255555
+#process 0 infer four   @1718268270.925573
+$process 1 infer three  @1718268270.9368026
+#process 1 infer four   @1718268270.9368215
+$process 2 infer two    @1718268270.937294
+#process 2 infer three  @1718268270.937312
+$process 0 infer four   @1718268270.9448433
+#process 0 infer one    @1718268270.9448614
+$process 1 infer four   @1718268270.9555264
+#process 1 infer one    @1718268270.955545
+$process 0 infer one    @1718268270.9642205
+#process 0 infer two    @1718268270.9642386
+$process 2 infer three  @1718268270.9737442
+#process 2 infer four   @1718268270.9737625
+$process 1 infer one    @1718268270.975925
+#process 1 infer two    @1718268270.9759426
+$process 0 infer two    @1718268270.9835641
+#process 0 infer three  @1718268270.9835818
+$process 1 infer two    @1718268270.994904
+#process 1 infer three  @1718268270.9949222
+$process 0 infer three  @1718268271.0028498
+#process 0 infer four   @1718268271.0028677
+$process 2 infer four   @1718268271.0054855
+#process 2 infer one    @1718268271.005504
+$process 1 infer three  @1718268271.0136817
+#process 1 infer four   @1718268271.0136993
+$process 0 infer four   @1718268271.0221577
+$process 1 infer four   @1718268271.0326
+$process 2 infer one    @1718268271.0380025
+#process 2 infer two    @1718268271.0380206
+$process 2 infer two    @1718268271.0696807
+#process 2 infer three  @1718268271.0696995
+$process 2 infer three  @1718268271.101521
+#process 2 infer four   @1718268271.1015394
+$process 2 infer four   @1718268271.133834
+
+ prefix_l: 1
+
+#collect        @1718268271.1450372
+$collect        @1718268271.1458464
+#llm prepare@1718268271.145878
+$llm prepare@1718268271.1468682
+#llm forward@1718268271.146899
+verify finished         @1718268271.2825446
+$llm forward    @1718268271.2825766
+#llm result     @1718268271.2825828
+batch_winner_index = 1
+-----------------------------------epoch 7 end---------------------------------------
+
+#prompt to gpu_0        @1718268271.2956748
+$prompt to gpu_0        @1718268271.2957408
+#process 0 task queue   @1718268271.295785
+
+#prompt to gpu_1        @1718268271.2957945
+$prompt to gpu_1        @1718268271.296274
+#process 1 task queue   @1718268271.2962992
+
+#prompt to gpu_2        @1718268271.2963064
+$prompt to gpu_2        @1718268271.2967265
+#process 2 task queue   @1718268271.2967489
+$process 0 task queue   @1718268271.2970173
+#process 0 infer prepare        @1718268271.2970593
+$process 1 task queue   @1718268271.2972
+#process 1 infer prepare        @1718268271.2972438
+$process 2 task queue   @1718268271.2976186
+#process 2 infer prepare        @1718268271.2976606
+$process 1 infer prepare        @1718268271.297655
+#process 1 infer one    @1718268271.297697
+$process 0 infer prepare        @1718268271.2977536
+#process 0 infer one    @1718268271.2978127
+$process 2 infer prepare        @1718268271.298115
+#process 2 infer one    @1718268271.2981503
+$process 0 infer one    @1718268271.3378382
+#process 0 infer two    @1718268271.3378563
+$process 1 infer one    @1718268271.3394992
+#process 1 infer two    @1718268271.3395197
+$process 2 infer one    @1718268271.3526096
+#process 2 infer two    @1718268271.3526282
+$process 0 infer two    @1718268271.3593538
+#process 0 infer three  @1718268271.3593721
+$process 1 infer two    @1718268271.3610935
+#process 1 infer three  @1718268271.361112
+$process 0 infer three  @1718268271.3787134
+#process 0 infer four   @1718268271.3787298
+$process 1 infer three  @1718268271.3801148
+#process 1 infer four   @1718268271.380133
+$process 2 infer two    @1718268271.3857172
+#process 2 infer three  @1718268271.3857358
+$process 0 infer four   @1718268271.3979325
+#process 0 infer one    @1718268271.39795
+$process 1 infer four   @1718268271.3989177
+#process 1 infer one    @1718268271.3989356
+$process 2 infer three  @1718268271.417098
+#process 2 infer four   @1718268271.4171164
+$process 0 infer one    @1718268271.4172504
+#process 0 infer two    @1718268271.4172688
+$process 1 infer one    @1718268271.4181638
+#process 1 infer two    @1718268271.4181824
+$process 0 infer two    @1718268271.436647
+#process 0 infer three  @1718268271.4366646
+$process 1 infer two    @1718268271.4373298
+#process 1 infer three  @1718268271.4373477
+$process 2 infer four   @1718268271.4488857
+#process 2 infer one    @1718268271.4489045
+$process 0 infer three  @1718268271.4563317
+#process 0 infer four   @1718268271.4563496
+$process 1 infer three  @1718268271.4579492
+#process 1 infer four   @1718268271.4579673
+$process 0 infer four   @1718268271.4759424
+$process 1 infer four   @1718268271.476804
+$process 2 infer one    @1718268271.4828346
+#process 2 infer two    @1718268271.482853
+$process 2 infer two    @1718268271.514335
+#process 2 infer three  @1718268271.5143526
+$process 2 infer three  @1718268271.545857
+#process 2 infer four   @1718268271.5458744
+$process 2 infer four   @1718268271.5812511
+
+ prefix_l: 0
+
+#collect        @1718268271.5920045
+$collect        @1718268271.5927854
+#llm prepare@1718268271.5928166
+$llm prepare@1718268271.593839
+#llm forward@1718268271.5938704
+verify finished         @1718268271.7257068
+$llm forward    @1718268271.7257392
+#llm result     @1718268271.7257457
+batch_winner_index = 2
+-----------------------------------epoch 8 end---------------------------------------
+
+#prompt to gpu_0        @1718268271.7387273
+$prompt to gpu_0        @1718268271.738805
+#process 0 task queue   @1718268271.7388442
+
+#prompt to gpu_1        @1718268271.7388544
+$prompt to gpu_1        @1718268271.7392428
+#process 1 task queue   @1718268271.7392783
+
+#prompt to gpu_2        @1718268271.7392907
+$prompt to gpu_2        @1718268271.7400014
+#process 2 task queue   @1718268271.7400243
+$process 0 task queue   @1718268271.7401726
+#process 0 infer prepare        @1718268271.7402098
+$process 1 task queue   @1718268271.7404382
+#process 1 infer prepare        @1718268271.740484
+$process 2 task queue   @1718268271.740819
+#process 2 infer prepare        @1718268271.740866
+$process 1 infer prepare        @1718268271.7409008
+#process 1 infer one    @1718268271.7409377
+$process 0 infer prepare        @1718268271.7409387
+#process 0 infer one    @1718268271.7409785
+$process 2 infer prepare        @1718268271.7413056
+#process 2 infer one    @1718268271.7413428
+$process 0 infer one    @1718268271.781112
+#process 0 infer two    @1718268271.781132
+$process 1 infer one    @1718268271.783263
+#process 1 infer two    @1718268271.7832837
+$process 2 infer one    @1718268271.7974725
+#process 2 infer two    @1718268271.7974944
+$process 0 infer two    @1718268271.8011029
+#process 0 infer three  @1718268271.801121
+$process 1 infer two    @1718268271.8029199
+#process 1 infer three  @1718268271.8029385
+$process 0 infer three  @1718268271.8204403
+#process 0 infer four   @1718268271.8204584
+$process 1 infer three  @1718268271.8219852
+#process 1 infer four   @1718268271.8220031
+$process 2 infer two    @1718268271.8292162
+#process 2 infer three  @1718268271.829234
+$process 0 infer four   @1718268271.8397915
+#process 0 infer one    @1718268271.83981
+$process 1 infer four   @1718268271.8427434
+#process 1 infer one    @1718268271.8427637
+$process 0 infer one    @1718268271.8593364
+#process 0 infer two    @1718268271.8593543
+$process 1 infer one    @1718268271.8618813
+#process 1 infer two    @1718268271.861899
+$process 2 infer three  @1718268271.8629687
+#process 2 infer four   @1718268271.8629868
+$process 0 infer two    @1718268271.878625
+#process 0 infer three  @1718268271.8786428
+$process 1 infer two    @1718268271.8879328
+#process 1 infer three  @1718268271.8879514
+$process 0 infer three  @1718268271.8979146
+#process 0 infer four   @1718268271.8979323
+$process 2 infer four   @1718268271.9080765
+#process 2 infer one    @1718268271.9080963
+$process 1 infer three  @1718268271.911653
+#process 1 infer four   @1718268271.9116716
+$process 0 infer four   @1718268271.9234378
+$process 1 infer four   @1718268271.9324098
+$process 2 infer one    @1718268271.940311
+#process 2 infer two    @1718268271.9403298
+$process 2 infer two    @1718268271.9735157
+#process 2 infer three  @1718268271.9735348
+$process 2 infer three  @1718268272.0060482
+#process 2 infer four   @1718268272.0060668
+$process 2 infer four   @1718268272.0373256
+
+ prefix_l: 2
+
+#collect        @1718268272.054841
+$collect        @1718268272.0554485
+#llm prepare@1718268272.055473
+$llm prepare@1718268272.0562444
+#llm forward@1718268272.0562673
+verify finished         @1718268272.1832206
+$llm forward    @1718268272.183253
+#llm result     @1718268272.1832597
+batch_winner_index = 0
+-----------------------------------epoch 9 end---------------------------------------
+
+#prompt to gpu_0        @1718268272.2014885
+$prompt to gpu_0        @1718268272.201561
+#process 0 task queue   @1718268272.20163
+
+#prompt to gpu_1        @1718268272.2016394
+$prompt to gpu_1        @1718268272.2034771
+#process 1 task queue   @1718268272.2035234
+
+#prompt to gpu_2        @1718268272.2035353
+$prompt to gpu_2        @1718268272.2040982
+#process 2 task queue   @1718268272.2041564
+$process 1 task queue   @1718268272.2046826
+#process 1 infer prepare        @1718268272.20473
+$process 1 infer prepare        @1718268272.2051356
+#process 1 infer one    @1718268272.2051744
+$process 2 task queue   @1718268272.2051535
+#process 2 infer prepare        @1718268272.2052093
+$process 2 infer prepare        @1718268272.2056856
+#process 2 infer one    @1718268272.2057238
+$process 0 task queue   @1718268272.2058918
+#process 0 infer prepare        @1718268272.2059326
+$process 0 infer prepare        @1718268272.207682
+#process 0 infer one    @1718268272.207719
+$process 0 infer one    @1718268272.247662
+#process 0 infer two    @1718268272.2476826
+$process 1 infer one    @1718268272.249552
+#process 1 infer two    @1718268272.2495842
+$process 2 infer one    @1718268272.2646031
+#process 2 infer two    @1718268272.2646246
+$process 0 infer two    @1718268272.2675307
+#process 0 infer three  @1718268272.2675483
+$process 1 infer two    @1718268272.2691994
+#process 1 infer three  @1718268272.269218
+$process 0 infer three  @1718268272.2868278
+#process 0 infer four   @1718268272.2868457
+$process 1 infer three  @1718268272.288092
+#process 1 infer four   @1718268272.28811
+$process 2 infer two    @1718268272.2975957
+#process 2 infer three  @1718268272.297614
+$process 1 infer four   @1718268272.3071263
+#process 1 infer one    @1718268272.3071449
+$process 0 infer four   @1718268272.3080013
+#process 0 infer one    @1718268272.308019
+$process 1 infer one    @1718268272.3261821
+#process 1 infer two    @1718268272.3262012
+$process 0 infer one    @1718268272.3275735
+#process 0 infer two    @1718268272.3275917
+$process 2 infer three  @1718268272.3303328
+#process 2 infer four   @1718268272.330351
+$process 0 infer two    @1718268272.3471212
+#process 0 infer three  @1718268272.347139
+$process 1 infer two    @1718268272.3477776
+#process 1 infer three  @1718268272.3478048
+$process 2 infer four   @1718268272.3630834
+#process 2 infer one    @1718268272.3631012
+$process 0 infer three  @1718268272.366412
+#process 0 infer four   @1718268272.3664293
+$process 1 infer three  @1718268272.3673277
+#process 1 infer four   @1718268272.3673468
+$process 0 infer four   @1718268272.3859372
+$process 1 infer four   @1718268272.3863854
+$process 2 infer one    @1718268272.395814
+#process 2 infer two    @1718268272.3958318
+$process 2 infer two    @1718268272.4294088
+#process 2 infer three  @1718268272.429426
+$process 2 infer three  @1718268272.4650693
+#process 2 infer four   @1718268272.465088
+$process 2 infer four   @1718268272.4986765
+
+ prefix_l: 6
+
+#collect        @1718268272.511682
+$collect        @1718268272.5125391
+#llm prepare@1718268272.512572
+$llm prepare@1718268272.5135682
+#llm forward@1718268272.5135994
+verify finished         @1718268272.648097
+$llm forward    @1718268272.64813
+#llm result     @1718268272.6481366
+batch_winner_index = 0
+-----------------------------------epoch 10 end---------------------------------------
+
+#prompt to gpu_0        @1718268272.6624901
+$prompt to gpu_0        @1718268272.6625602
+#process 0 task queue   @1718268272.6626046
+
+#prompt to gpu_1        @1718268272.662614
+$prompt to gpu_1        @1718268272.6631675
+#process 1 task queue   @1718268272.663196
+
+#prompt to gpu_2        @1718268272.6632035
+$prompt to gpu_2        @1718268272.6636198
+#process 2 task queue   @1718268272.6636448
+$process 0 task queue   @1718268272.6639113
+#process 0 infer prepare        @1718268272.6639519
+$process 2 task queue   @1718268272.6644492
+#process 2 infer prepare        @1718268272.6644933
+$process 0 infer prepare        @1718268272.664711
+#process 0 infer one    @1718268272.664751
+$process 2 infer prepare        @1718268272.6649628
+#process 2 infer one    @1718268272.6650043
+$process 1 task queue   @1718268272.667051
+#process 1 infer prepare        @1718268272.667109
+$process 1 infer prepare        @1718268272.6675913
+#process 1 infer one    @1718268272.667633
+$process 0 infer one    @1718268272.7043126
+#process 0 infer two    @1718268272.704333
+$process 1 infer one    @1718268272.7077465
+#process 1 infer two    @1718268272.7077672
+$process 2 infer one    @1718268272.719804
+#process 2 infer two    @1718268272.7198226
+$process 0 infer two    @1718268272.7240555
+#process 0 infer three  @1718268272.7240734
+$process 1 infer two    @1718268272.7303307
+#process 1 infer three  @1718268272.7303486
+$process 0 infer three  @1718268272.7436888
+#process 0 infer four   @1718268272.7437067
+$process 1 infer three  @1718268272.749283
+#process 1 infer four   @1718268272.749301
+$process 2 infer two    @1718268272.752863
+#process 2 infer three  @1718268272.7528806
+$process 0 infer four   @1718268272.762998
+#process 0 infer one    @1718268272.7630162
+$process 1 infer four   @1718268272.7679672
+#process 1 infer one    @1718268272.7679849
+$process 0 infer one    @1718268272.7823193
+#process 0 infer two    @1718268272.7823381
+$process 2 infer three  @1718268272.785588
+#process 2 infer four   @1718268272.7856057
+$process 1 infer one    @1718268272.786642
+#process 1 infer two    @1718268272.78666
+$process 0 infer two    @1718268272.8019655
+#process 0 infer three  @1718268272.8019836
+$process 1 infer two    @1718268272.8055964
+#process 1 infer three  @1718268272.8056147
+$process 2 infer four   @1718268272.8183339
+#process 2 infer one    @1718268272.8183515
+$process 0 infer three  @1718268272.82135
+#process 0 infer four   @1718268272.8213675
+$process 1 infer three  @1718268272.8244836
+#process 1 infer four   @1718268272.8245013
+$process 0 infer four   @1718268272.840917
+$process 1 infer four   @1718268272.845245
+$process 2 infer one    @1718268272.8662782
+#process 2 infer two    @1718268272.8663416
+$process 2 infer two    @1718268272.9081883
+#process 2 infer three  @1718268272.9082072
+$process 2 infer three  @1718268272.9399652
+#process 2 infer four   @1718268272.939983
+$process 2 infer four   @1718268272.971604
+
+ prefix_l: 1
+
+#collect        @1718268272.9832814
+$collect        @1718268272.9840653
+#llm prepare@1718268272.9840956
+$llm prepare@1718268272.9850936
+#llm forward@1718268272.9851248
+verify finished         @1718268273.1308708
+$llm forward    @1718268273.1309109
+#llm result     @1718268273.1309175
+batch_winner_index = 0
+-----------------------------------epoch 11 end---------------------------------------
+
+#prompt to gpu_0        @1718268273.1412785
+$prompt to gpu_0        @1718268273.1413448
+#process 0 task queue   @1718268273.1414046
+
+#prompt to gpu_1        @1718268273.141924
+$prompt to gpu_1        @1718268273.1419961
+#process 1 task queue   @1718268273.1420228
+
+#prompt to gpu_2        @1718268273.1420314
+$prompt to gpu_2        @1718268273.142476
+#process 2 task queue   @1718268273.1424983
+$process 0 task queue   @1718268273.1426985
+#process 0 infer prepare        @1718268273.1427412
+$process 1 task queue   @1718268273.1430128
+#process 1 infer prepare        @1718268273.1430614
+$process 0 infer prepare        @1718268273.1434376
+#process 0 infer one    @1718268273.1434777
+$process 1 infer prepare        @1718268273.1435022
+#process 1 infer one    @1718268273.1435387
+$process 2 task queue   @1718268273.1436627
+#process 2 infer prepare        @1718268273.1437132
+$process 2 infer prepare        @1718268273.1441262
+#process 2 infer one    @1718268273.1441627
+$process 1 infer one    @1718268273.1820784
+#process 1 infer two    @1718268273.1820993
+$process 0 infer one    @1718268273.1831453
+#process 0 infer two    @1718268273.1831658
+$process 2 infer one    @1718268273.1978068
+#process 2 infer two    @1718268273.1978335
+$process 1 infer two    @1718268273.201842
+#process 1 infer three  @1718268273.2018595
+$process 0 infer two    @1718268273.2033117
+#process 0 infer three  @1718268273.2033298
+$process 1 infer three  @1718268273.2207491
+#process 1 infer four   @1718268273.2207677
+$process 0 infer three  @1718268273.2226992
+#process 0 infer four   @1718268273.2227173
+$process 2 infer two    @1718268273.2293618
+#process 2 infer three  @1718268273.2293797
+$process 1 infer four   @1718268273.24123
+#process 1 infer one    @1718268273.241248
+$process 0 infer four   @1718268273.2419627
+#process 0 infer one    @1718268273.24198
+$process 1 infer one    @1718268273.2602148
+#process 1 infer two    @1718268273.260233
+$process 2 infer three  @1718268273.2607982
+#process 2 infer four   @1718268273.2608154
+$process 0 infer one    @1718268273.2612846
+#process 0 infer two    @1718268273.2613025
+$process 1 infer two    @1718268273.2792416
+#process 1 infer three  @1718268273.2792602
+$process 0 infer two    @1718268273.2826004
+#process 0 infer three  @1718268273.2826192
+$process 2 infer four   @1718268273.2922738
+#process 2 infer one    @1718268273.2922916
+$process 1 infer three  @1718268273.2981813
+#process 1 infer four   @1718268273.298199
+$process 0 infer three  @1718268273.302279
+#process 0 infer four   @1718268273.3022966
+$process 1 infer four   @1718268273.3173516
+$process 0 infer four   @1718268273.321834
+$process 2 infer one    @1718268273.3236663
+#process 2 infer two    @1718268273.3236852
+$process 2 infer two    @1718268273.3596666
+#process 2 infer three  @1718268273.359684
+$process 2 infer three  @1718268273.391151
+#process 2 infer four   @1718268273.391168
+$process 2 infer four   @1718268273.4235477
+
+ prefix_l: 1
+
+#collect        @1718268273.4329467
+$collect        @1718268273.4337223
+#llm prepare@1718268273.433754
+$llm prepare@1718268273.4348772
+#llm forward@1718268273.4349103
+verify finished         @1718268273.5708168
+$llm forward    @1718268273.5708523
+#llm result     @1718268273.570859
+batch_winner_index = 1
+-----------------------------------epoch 12 end---------------------------------------
+
+#prompt to gpu_0        @1718268273.5824754
+$prompt to gpu_0        @1718268273.5825408
+#process 0 task queue   @1718268273.5825865
+
+#prompt to gpu_1        @1718268273.582596
+$prompt to gpu_1        @1718268273.58317
+#process 1 task queue   @1718268273.5832016
+
+#prompt to gpu_2        @1718268273.5832114
+$process 0 task queue        @1718268273.5834887
+#process 0 infer prepare        @1718268273.58353
+
+$prompt to gpu_2        @1718268273.5836627
+#process 2 task queue   @1718268273.5836887
+$process 0 infer prepare        @1718268273.5839021
+#process 0 infer one    @1718268273.5839365
+$process 1 task queue   @1718268273.5840683
+#process 1 infer prepare        @1718268273.5841198
+$process 2 task queue   @1718268273.584544
+$process 1 infer prepare        @1718268273.5845814
+#process 2 infer prepare        @1718268273.5845904
+#process 1 infer one    @1718268273.5846186
+$process 2 infer prepare        @1718268273.58508
+#process 2 infer one    @1718268273.5851154
+$process 0 infer one    @1718268273.6256857
+#process 0 infer two    @1718268273.6257045
+$process 1 infer one    @1718268273.6285293
+#process 1 infer two    @1718268273.6285586
+$process 2 infer one    @1718268273.6423714
+#process 2 infer two    @1718268273.6423912
+$process 0 infer two    @1718268273.6453583
+#process 0 infer three  @1718268273.645376
+$process 1 infer two    @1718268273.6479654
+#process 1 infer three  @1718268273.6479847
+$process 0 infer three  @1718268273.6646867
+#process 0 infer four   @1718268273.6647043
+$process 1 infer three  @1718268273.6669164
+#process 1 infer four   @1718268273.6669347
+$process 2 infer two    @1718268273.675009
+#process 2 infer three  @1718268273.6750262
+$process 0 infer four   @1718268273.6840212
+#process 0 infer one    @1718268273.6840386
+$process 1 infer four   @1718268273.6857758
+#process 1 infer one    @1718268273.6857936
+$process 0 infer one    @1718268273.7035751
+#process 0 infer two    @1718268273.7035933
+$process 1 infer one    @1718268273.7047534
+#process 1 infer two    @1718268273.704772
+$process 2 infer three  @1718268273.7076635
+#process 2 infer four   @1718268273.707681
+$process 0 infer two    @1718268273.7229526
+#process 0 infer three  @1718268273.72297
+$process 1 infer two    @1718268273.7254615
+#process 1 infer three  @1718268273.72548
+$process 0 infer three  @1718268273.7422335
+#process 0 infer four   @1718268273.7422516
+$process 2 infer four   @1718268273.7424622
+#process 2 infer one    @1718268273.7424788
+$process 1 infer three  @1718268273.7445276
+#process 1 infer four   @1718268273.7445467
+$process 0 infer four   @1718268273.761719
+$process 1 infer four   @1718268273.7645714
+$process 2 infer one    @1718268273.7755437
+#process 2 infer two    @1718268273.7755613
+$process 2 infer two    @1718268273.8082585
+#process 2 infer three  @1718268273.8082755
+$process 2 infer three  @1718268273.8432114
+#process 2 infer four   @1718268273.8432293
+$process 2 infer four   @1718268273.8760753
+
+ prefix_l: 2
+
+#collect        @1718268273.8867233
+$collect        @1718268273.8875425
+#llm prepare@1718268273.887574
+$llm prepare@1718268273.8885808
+#llm forward@1718268273.8886127
+verify finished         @1718268274.0336401
+$llm forward    @1718268274.033677
+#llm result     @1718268274.033684
+batch_winner_index = 0
+-----------------------------------epoch 13 end---------------------------------------
+
+#prompt to gpu_0        @1718268274.0456939
+$prompt to gpu_0        @1718268274.0458202
+#process 0 task queue   @1718268274.0458648
+
+#prompt to gpu_1        @1718268274.0458739
+$prompt to gpu_1        @1718268274.0463912
+#process 1 task queue   @1718268274.046422
+
+#prompt to gpu_2        @1718268274.0464294
+$process 0 task queue        @1718268274.0466807
+#process 0 infer prepare        @1718268274.0467205
+
+$prompt to gpu_2        @1718268274.0469112
+#process 2 task queue   @1718268274.046937
+$process 0 infer prepare        @1718268274.0470984
+#process 0 infer one    @1718268274.047133
+$process 1 task queue   @1718268274.0473878
+#process 1 infer prepare        @1718268274.0474317
+$process 2 task queue   @1718268274.0477228
+#process 2 infer prepare        @1718268274.0477643
+$process 1 infer prepare        @1718268274.0478175
+#process 1 infer one    @1718268274.047852
+$process 2 infer prepare        @1718268274.048386
+#process 2 infer one    @1718268274.048424
+$process 0 infer one    @1718268274.0876791
+#process 0 infer two    @1718268274.0877013
+$process 1 infer one    @1718268274.0893977
+#process 1 infer two    @1718268274.0894175
+$process 2 infer one    @1718268274.103916
+#process 2 infer two    @1718268274.103937
+$process 0 infer two    @1718268274.1072783
+#process 0 infer three  @1718268274.1072967
+$process 1 infer two    @1718268274.1103084
+#process 1 infer three  @1718268274.1103275
+$process 0 infer three  @1718268274.1268277
+#process 0 infer four   @1718268274.1268468
+$process 1 infer three  @1718268274.1292472
+#process 1 infer four   @1718268274.1292655
+$process 2 infer two    @1718268274.1409922
+#process 2 infer three  @1718268274.1410124
+$process 0 infer four   @1718268274.1462145
+#process 0 infer one    @1718268274.1462326
+$process 1 infer four   @1718268274.1481702
+#process 1 infer one    @1718268274.1481886
+$process 0 infer one    @1718268274.165642
+#process 0 infer two    @1718268274.1656597
+$process 1 infer one    @1718268274.1670516
+#process 1 infer two    @1718268274.1670694
+$process 2 infer three  @1718268274.1740365
+#process 2 infer four   @1718268274.1740544
+$process 0 infer two    @1718268274.185195
+#process 0 infer three  @1718268274.1852117
+$process 1 infer two    @1718268274.1859243
+#process 1 infer three  @1718268274.185942
+$process 0 infer three  @1718268274.2046278
+#process 0 infer four   @1718268274.2046454
+$process 1 infer three  @1718268274.2048075
+#process 1 infer four   @1718268274.2048259
+$process 2 infer four   @1718268274.2069964
+#process 2 infer one    @1718268274.207014
+$process 0 infer four   @1718268274.224126
+$process 1 infer four   @1718268274.2256286
+$process 2 infer one    @1718268274.2415762
+#process 2 infer two    @1718268274.2415936
+$process 2 infer two    @1718268274.2742314
+#process 2 infer three  @1718268274.274249
+$process 2 infer three  @1718268274.3070493
+#process 2 infer four   @1718268274.3070662
+$process 2 infer four   @1718268274.3417554
+
+ prefix_l: 1
+
+#collect        @1718268274.3530035
+$collect        @1718268274.353851
+#llm prepare@1718268274.353884
+$llm prepare@1718268274.3549151
+#llm forward@1718268274.3549469
+verify finished         @1718268274.4999516
+$llm forward    @1718268274.4999871
+#llm result     @1718268274.4999936
+batch_winner_index = 0
+-----------------------------------epoch 14 end---------------------------------------
+
+#prompt to gpu_0        @1718268274.517556
+$prompt to gpu_0        @1718268274.517641
+#process 0 task queue   @1718268274.5176842
+
+#prompt to gpu_1        @1718268274.5176938
+$prompt to gpu_1        @1718268274.5182388
+#process 1 task queue   @1718268274.5182781
+
+#prompt to gpu_2        @1718268274.5182884
+$process 0 task queue   @1718268274.518615
+#process 0 infer prepare        @1718268274.5186555
+$prompt to gpu_2        @1718268274.5188136
+#process 2 task queue   @1718268274.5188806
+$process 0 infer prepare        @1718268274.519059
+#process 0 infer one    @1718268274.5190945
+$process 1 task queue   @1718268274.5193264
+#process 1 infer prepare        @1718268274.5193706
+$process 2 task queue   @1718268274.5196836
+#process 2 infer prepare        @1718268274.519722
+$process 1 infer prepare        @1718268274.5197704
+#process 1 infer one    @1718268274.5198045
+$process 2 infer prepare        @1718268274.5201042
+#process 2 infer one    @1718268274.5201387
+$process 0 infer one    @1718268274.5608811
+#process 0 infer two    @1718268274.560911
+$process 1 infer one    @1718268274.5622387
+#process 1 infer two    @1718268274.56226
+$process 2 infer one    @1718268274.573882
+#process 2 infer two    @1718268274.5739
+$process 0 infer two    @1718268274.5806036
+#process 0 infer three  @1718268274.5806212
+$process 1 infer two    @1718268274.5817685
+#process 1 infer three  @1718268274.5817933
+$process 0 infer three  @1718268274.600194
+#process 0 infer four   @1718268274.6002116
+$process 1 infer three  @1718268274.601297
+#process 1 infer four   @1718268274.6013153
+$process 2 infer two    @1718268274.6082637
+#process 2 infer three  @1718268274.6082819
+$process 0 infer four   @1718268274.6195774
+#process 0 infer one    @1718268274.6195953
+$process 1 infer four   @1718268274.6219037
+#process 1 infer one    @1718268274.6219237
+$process 0 infer one    @1718268274.6389318
+#process 0 infer two    @1718268274.6389496
+$process 1 infer one    @1718268274.64122
+#process 1 infer two    @1718268274.6412385
+$process 2 infer three  @1718268274.646441
+#process 2 infer four   @1718268274.6464593
+$process 0 infer two    @1718268274.658254
+#process 0 infer three  @1718268274.6582701
+$process 1 infer two    @1718268274.6602266
+#process 1 infer three  @1718268274.660245
+$process 0 infer three  @1718268274.6778104
+#process 0 infer four   @1718268274.6778276
+$process 2 infer four   @1718268274.6791277
+#process 2 infer one    @1718268274.6791468
+$process 1 infer three  @1718268274.6794677
+#process 1 infer four   @1718268274.6794868
+$process 0 infer four   @1718268274.6975048
+$process 1 infer four   @1718268274.69839
+$process 2 infer one    @1718268274.7336397
+#process 2 infer two    @1718268274.7336655
+$process 2 infer two    @1718268274.7670033
+#process 2 infer three  @1718268274.7670221
+$process 2 infer three  @1718268274.7985253
+#process 2 infer four   @1718268274.7985446
+$process 2 infer four   @1718268274.82985
+
+ prefix_l: 0
+
+#collect        @1718268274.836722
+$collect        @1718268274.8370063
+#llm prepare@1718268274.8370178
+$llm prepare@1718268274.8375285
+#llm forward@1718268274.83754
+verify finished         @1718268274.964037
+$llm forward    @1718268274.9640772
+#llm result     @1718268274.964084
+batch_winner_index = 1
+-----------------------------------epoch 15 end---------------------------------------
+
+#prompt to gpu_0        @1718268274.9751253
+$prompt to gpu_0        @1718268274.9752097
+#process 0 task queue   @1718268274.9752674
+
+#prompt to gpu_1        @1718268274.9752762
+$prompt to gpu_1        @1718268274.9761286
+#process 1 task queue   @1718268274.976199
+
+#prompt to gpu_2        @1718268274.9762073
+$process 0 task queue   @1718268274.9765801
+#process 0 infer prepare        @1718268274.976623
+$prompt to gpu_2        @1718268274.976681
+#process 2 task queue   @1718268274.9767067
+$process 0 infer prepare        @1718268274.9770632
+#process 0 infer one    @1718268274.9771001
+$process 1 task queue   @1718268274.9778242
+#process 1 infer prepare        @1718268274.9778802
+$process 2 task queue   @1718268274.9782286
+#process 2 infer prepare        @1718268274.9782796
+$process 1 infer prepare        @1718268274.9787133
+#process 1 infer one    @1718268274.9787562
+$process 2 infer prepare        @1718268274.9790537
+#process 2 infer one    @1718268274.9790945
+$process 0 infer one    @1718268275.0166733
+#process 0 infer two    @1718268275.016698
+$process 1 infer one    @1718268275.0195272
+#process 1 infer two    @1718268275.0195591
+$process 2 infer one    @1718268275.032162
+#process 2 infer two    @1718268275.032181
+$process 0 infer two    @1718268275.0363836
+#process 0 infer three  @1718268275.0364027
+$process 1 infer two    @1718268275.0391042
+#process 1 infer three  @1718268275.0391226
+$process 0 infer three  @1718268275.0557854
+#process 0 infer four   @1718268275.0558043
+$process 1 infer three  @1718268275.0580015
+#process 1 infer four   @1718268275.0580196
+$process 2 infer two    @1718268275.0642421
+#process 2 infer three  @1718268275.0642607
+$process 0 infer four   @1718268275.075152
+#process 0 infer one    @1718268275.0751696
+$process 1 infer four   @1718268275.076914
+#process 1 infer one    @1718268275.0769324
+$process 0 infer one    @1718268275.0945914
+#process 0 infer two    @1718268275.0946093
+$process 1 infer one    @1718268275.0957954
+#process 1 infer two    @1718268275.095814
+$process 2 infer three  @1718268275.0975006
+#process 2 infer four   @1718268275.097529
+$process 0 infer two    @1718268275.113983
+#process 0 infer three  @1718268275.114
+$process 1 infer two    @1718268275.1146307
+#process 1 infer three  @1718268275.114649
+$process 2 infer four   @1718268275.129226
+#process 2 infer one    @1718268275.1292446
+$process 0 infer three  @1718268275.1333387
+#process 0 infer four   @1718268275.1333566
+$process 1 infer three  @1718268275.1358738
+#process 1 infer four   @1718268275.1359
+$process 0 infer four   @1718268275.1529748
+$process 1 infer four   @1718268275.1554184
+$process 2 infer one    @1718268275.1618183
+#process 2 infer two    @1718268275.1618361
+$process 2 infer two    @1718268275.1934984
+#process 2 infer three  @1718268275.193516
+$process 2 infer three  @1718268275.227769
+#process 2 infer four   @1718268275.227795
+$process 2 infer four   @1718268275.260538
+
+ prefix_l: 3
+
+#collect        @1718268275.2713053
+$collect        @1718268275.2721112
+#llm prepare@1718268275.2721436
+$llm prepare@1718268275.2731428
+#llm forward@1718268275.2731736
+verify finished         @1718268275.4081347
+$llm forward    @1718268275.408172
+#llm result     @1718268275.4081788
+batch_winner_index = 0
+-----------------------------------epoch 16 end---------------------------------------
+
+#prompt to gpu_0        @1718268275.4228382
+$prompt to gpu_0        @1718268275.4229198
+#process 0 task queue   @1718268275.4229836
+
+#prompt to gpu_1        @1718268275.422993
+$prompt to gpu_1        @1718268275.4236538
+#process 1 task queue   @1718268275.4236817
+
+#prompt to gpu_2        @1718268275.4236891
+$prompt to gpu_2        @1718268275.424142
+#process 2 task queue   @1718268275.4241645
+$process 0 task queue   @1718268275.4244301
+#process 0 infer prepare        @1718268275.4244716
+$process 0 infer prepare        @1718268275.4253771
+#process 0 infer one    @1718268275.4254167
+$process 1 task queue   @1718268275.425403
+#process 1 infer prepare        @1718268275.4254606
+$process 2 task queue   @1718268275.4257128
+#process 2 infer prepare        @1718268275.4257584
+$process 1 infer prepare        @1718268275.4263337
+#process 1 infer one    @1718268275.4263804
+$process 2 infer prepare        @1718268275.4265635
+#process 2 infer one    @1718268275.4266038
+$process 0 infer one    @1718268275.4662023
+#process 0 infer two    @1718268275.4662237
+$process 1 infer one    @1718268275.4686527
+#process 1 infer two    @1718268275.4686723
+$process 2 infer one    @1718268275.481812
+#process 2 infer two    @1718268275.4818313
+$process 0 infer two    @1718268275.4862316
+#process 0 infer three  @1718268275.4862497
+$process 1 infer two    @1718268275.4875374
+#process 1 infer three  @1718268275.4875553
+$process 0 infer three  @1718268275.5057058
+#process 0 infer four   @1718268275.5057235
+$process 1 infer three  @1718268275.5096576
+#process 1 infer four   @1718268275.5096767
+$process 2 infer two    @1718268275.5188482
+#process 2 infer three  @1718268275.518869
+$process 0 infer four   @1718268275.5254204
+#process 0 infer one    @1718268275.5254388
+$process 1 infer four   @1718268275.5284724
+#process 1 infer one    @1718268275.5284903
+$process 0 infer one    @1718268275.5449033
+#process 0 infer two    @1718268275.544921
+$process 1 infer one    @1718268275.5472054
+#process 1 infer two    @1718268275.5472233
+$process 2 infer three  @1718268275.551095
+#process 2 infer four   @1718268275.5511134
+$process 0 infer two    @1718268275.5645201
+#process 0 infer three  @1718268275.5645385
+$process 1 infer two    @1718268275.5658348
+#process 1 infer three  @1718268275.5658514
+$process 2 infer four   @1718268275.5829856
+#process 2 infer one    @1718268275.5830042
+$process 0 infer three  @1718268275.5839782
+#process 0 infer four   @1718268275.5839965
+$process 1 infer three  @1718268275.5845006
+#process 1 infer four   @1718268275.5845184
+$process 1 infer four   @1718268275.6032283
+$process 0 infer four   @1718268275.603888
+$process 2 infer one    @1718268275.6157398
+#process 2 infer two    @1718268275.6157582
+$process 2 infer two    @1718268275.6475687
+#process 2 infer three  @1718268275.6475866
+$process 2 infer three  @1718268275.6793272
+#process 2 infer four   @1718268275.6793451
+$process 2 infer four   @1718268275.7114878
+
+ prefix_l: 4
+
+#collect        @1718268275.722257
+$collect        @1718268275.7230554
+#llm prepare@1718268275.723089
+$llm prepare@1718268275.7241213
+#llm forward@1718268275.724153
+verify finished         @1718268275.8584323
+$llm forward    @1718268275.8584743
+#llm result     @1718268275.8584807
+batch_winner_index = 0
+-----------------------------------epoch 17 end---------------------------------------
+
+#prompt to gpu_0        @1718268275.872819
+$prompt to gpu_0        @1718268275.8728883
+#process 0 task queue   @1718268275.8729367
+
+#prompt to gpu_1        @1718268275.8729453
+$prompt to gpu_1        @1718268275.8735518
+#process 1 task queue   @1718268275.8736188
+
+#prompt to gpu_2        @1718268275.8736272
+$prompt to gpu_2        @1718268275.8740454
+#process 2 task queue   @1718268275.8740711
+$process 0 task queue   @1718268275.8743503
+#process 0 infer prepare        @1718268275.8743896
+$process 0 infer prepare        @1718268275.8752542
+#process 0 infer one    @1718268275.8752956
+$process 1 task queue   @1718268275.8753054
+#process 1 infer prepare        @1718268275.8753555
+$process 2 task queue   @1718268275.8754222
+#process 2 infer prepare        @1718268275.875463
+$process 1 infer prepare        @1718268275.8761692
+#process 1 infer one    @1718268275.8762133
+$process 2 infer prepare        @1718268275.8762202
+#process 2 infer one    @1718268275.8762608
+$process 0 infer one    @1718268275.9157841
+#process 0 infer two    @1718268275.9158032
+$process 1 infer one    @1718268275.9185672
+#process 1 infer two    @1718268275.9185872
+$process 2 infer one    @1718268275.9319055
+#process 2 infer two    @1718268275.9319236
+$process 0 infer two    @1718268275.9355004
+#process 0 infer three  @1718268275.9355185
+$process 1 infer two    @1718268275.937618
+#process 1 infer three  @1718268275.9376354
+$process 0 infer three  @1718268275.9549334
+#process 0 infer four   @1718268275.9549515
+$process 1 infer three  @1718268275.9564
+#process 1 infer four   @1718268275.956417
+$process 2 infer two    @1718268275.963667
+#process 2 infer three  @1718268275.9636848
+$process 0 infer four   @1718268275.974236
+#process 0 infer one    @1718268275.974254
+$process 1 infer four   @1718268275.975106
+#process 1 infer one    @1718268275.975123
+$process 0 infer one    @1718268275.9936485
+#process 0 infer two    @1718268275.9936666
+$process 1 infer one    @1718268275.9955528
+#process 1 infer two    @1718268275.99557
+$process 2 infer three  @1718268275.9976509
+#process 2 infer four   @1718268275.997669
+$process 0 infer two    @1718268276.0134668
+#process 0 infer three  @1718268276.0134847
+$process 1 infer two    @1718268276.0153234
+#process 1 infer three  @1718268276.0153415
+$process 2 infer four   @1718268276.0293648
+#process 2 infer one    @1718268276.029383
+$process 0 infer three  @1718268276.0327978
+#process 0 infer four   @1718268276.0328152
+$process 1 infer three  @1718268276.0341089
+#process 1 infer four   @1718268276.034126
+$process 0 infer four   @1718268276.061666
+$process 1 infer four   @1718268276.0636423
+$process 2 infer one    @1718268276.066249
+#process 2 infer two    @1718268276.0662684
+$process 2 infer two    @1718268276.1018898
+#process 2 infer three  @1718268276.1019092
+$process 2 infer three  @1718268276.1336975
+#process 2 infer four   @1718268276.133716
+$process 2 infer four   @1718268276.165595
+
+ prefix_l: 6
+
+#collect        @1718268276.1816158
+$collect        @1718268276.1824353
+#llm prepare@1718268276.1824684
+$llm prepare@1718268276.183369
+#llm forward@1718268276.1833918
+verify finished         @1718268276.3229346
+$llm forward    @1718268276.3229685
+#llm result     @1718268276.3229752
+batch_winner_index = 0
+-----------------------------------epoch 18 end---------------------------------------
+
+#prompt to gpu_0        @1718268276.3374145
+$prompt to gpu_0        @1718268276.337491
+#process 0 task queue   @1718268276.337535
+
+#prompt to gpu_1        @1718268276.337545
+$prompt to gpu_1        @1718268276.3380234
+#process 1 task queue   @1718268276.338051
+
+#prompt to gpu_2        @1718268276.3380587
+$prompt to gpu_2        @1718268276.3384979
+#process 2 task queue   @1718268276.338519
+$process 0 task queue   @1718268276.3396556
+#process 0 infer prepare        @1718268276.3396966
+$process 1 task queue   @1718268276.341063
+#process 1 infer prepare        @1718268276.3411167
+$process 2 task queue   @1718268276.3413088
+#process 2 infer prepare        @1718268276.3413575
+$process 0 infer prepare        @1718268276.3415148
+#process 0 infer one    @1718268276.3415534
+$process 1 infer prepare        @1718268276.3430026
+#process 1 infer one    @1718268276.3430603
+$process 2 infer prepare        @1718268276.3442357
+#process 2 infer one    @1718268276.3442786
+$process 0 infer one    @1718268276.3798187
+#process 0 infer two    @1718268276.37984
+$process 1 infer one    @1718268276.3831038
+#process 1 infer two    @1718268276.383122
+$process 0 infer two    @1718268276.399532
+#process 0 infer three  @1718268276.3995492
+$process 2 infer one    @1718268276.400665
+#process 2 infer two    @1718268276.4006886
+$process 1 infer two    @1718268276.403218
+#process 1 infer three  @1718268276.4032362
+$process 0 infer three  @1718268276.4189155
+#process 0 infer four   @1718268276.4189332
+$process 1 infer three  @1718268276.4229877
+#process 1 infer four   @1718268276.4230046
+$process 2 infer two    @1718268276.4331253
+#process 2 infer three  @1718268276.433145
+$process 0 infer four   @1718268276.4407957
+#process 0 infer one    @1718268276.4408214
+$process 1 infer four   @1718268276.4427965
+#process 1 infer one    @1718268276.4428132
+$process 0 infer one    @1718268276.4604068
+#process 0 infer two    @1718268276.4604242
+$process 1 infer one    @1718268276.46249
+#process 1 infer two    @1718268276.4625068
+$process 2 infer three  @1718268276.4649792
+#process 2 infer four   @1718268276.4649982
+$process 0 infer two    @1718268276.4797812
+#process 0 infer three  @1718268276.479799
+$process 1 infer two    @1718268276.4841993
+#process 1 infer three  @1718268276.4842167
+$process 2 infer four   @1718268276.4985313
+#process 2 infer one    @1718268276.49855
+$process 0 infer three  @1718268276.499112
+#process 0 infer four   @1718268276.4991293
+$process 1 infer three  @1718268276.511895
+#process 1 infer four   @1718268276.5119133
+$process 0 infer four   @1718268276.5186977
+$process 2 infer one    @1718268276.531318
+#process 2 infer two    @1718268276.5313365
+$process 1 infer four   @1718268276.532841
+$process 2 infer two    @1718268276.5631394
+#process 2 infer three  @1718268276.5631573
+$process 2 infer three  @1718268276.6058242
+#process 2 infer four   @1718268276.6058438
+$process 2 infer four   @1718268276.6379573
+
+ prefix_l: 1
+
+#collect        @1718268276.6500971
+$collect        @1718268276.6509092
+#llm prepare@1718268276.6509354
+$llm prepare@1718268276.6517966
+#llm forward@1718268276.6518211
+verify finished         @1718268276.7870648
+$llm forward    @1718268276.7870986
+#llm result     @1718268276.7871056
+batch_winner_index = 0
+-----------------------------------epoch 19 end---------------------------------------
+
+#prompt to gpu_0        @1718268276.7975636
+$prompt to gpu_0        @1718268276.7976289
+#process 0 task queue   @1718268276.7976687
+
+#prompt to gpu_1        @1718268276.797678
+$prompt to gpu_1        @1718268276.798179
+#process 1 task queue   @1718268276.7982056
+
+#prompt to gpu_2        @1718268276.798213
+$prompt to gpu_2        @1718268276.7986286
+#process 2 task queue   @1718268276.798652
+$process 0 task queue   @1718268276.7989168
+#process 0 infer prepare        @1718268276.7989578
+$process 1 task queue   @1718268276.799064
+#process 1 infer prepare        @1718268276.799105
+$process 1 infer prepare        @1718268276.799497
+#process 1 infer one    @1718268276.7995307
+$process 2 task queue   @1718268276.7995338
+#process 2 infer prepare        @1718268276.7995863
+$process 0 infer prepare        @1718268276.7996943
+#process 0 infer one    @1718268276.7997348
+$process 2 infer prepare        @1718268276.800049
+#process 2 infer one    @1718268276.800086
+$process 0 infer one    @1718268276.8394327
+#process 0 infer two    @1718268276.8394527
+$process 1 infer one    @1718268276.8400578
+#process 1 infer two    @1718268276.8400774
+$process 2 infer one    @1718268276.8525443
+#process 2 infer two    @1718268276.8525648
+$process 0 infer two    @1718268276.8595264
+#process 0 infer three  @1718268276.8595443
+$process 1 infer two    @1718268276.8624613
+#process 1 infer three  @1718268276.8624787
+$process 0 infer three  @1718268276.8789978
+#process 0 infer four   @1718268276.879016
+$process 1 infer three  @1718268276.8823347
+#process 1 infer four   @1718268276.8823519
+$process 2 infer two    @1718268276.888785
+#process 2 infer three  @1718268276.8888032
+$process 0 infer four   @1718268276.8983862
+#process 0 infer one    @1718268276.8984044
+$process 1 infer four   @1718268276.9021394
+#process 1 infer one    @1718268276.9021568
+$process 0 infer one    @1718268276.917798
+#process 0 infer two    @1718268276.9178145
+$process 2 infer three  @1718268276.9218829
+#process 2 infer four   @1718268276.9219015
+$process 1 infer one    @1718268276.921918
+#process 1 infer two    @1718268276.9219348
+$process 0 infer two    @1718268276.9374444
+#process 0 infer three  @1718268276.9374623
+$process 1 infer two    @1718268276.9419255
+#process 1 infer three  @1718268276.9419425
+$process 2 infer four   @1718268276.9536002
+#process 2 infer one    @1718268276.9536185
+$process 0 infer three  @1718268276.9569004
+#process 0 infer four   @1718268276.9569185
+$process 1 infer three  @1718268276.9637756
+#process 1 infer four   @1718268276.963793
+$process 0 infer four   @1718268276.9762895
+$process 1 infer four   @1718268276.9837623
+$process 2 infer one    @1718268276.9852057
+#process 2 infer two    @1718268276.9852242
+$process 2 infer two    @1718268277.0170329
+#process 2 infer three  @1718268277.0170507
+$process 2 infer three  @1718268277.048801
+#process 2 infer four   @1718268277.0488183
+$process 2 infer four   @1718268277.080679
+
+ prefix_l: 2
+
+#collect        @1718268277.0942256
+$collect        @1718268277.0950353
+#llm prepare@1718268277.0950665
+$llm prepare@1718268277.0960908
+#llm forward@1718268277.0961232
+verify finished         @1718268277.23699
+$llm forward    @1718268277.2370245
+#llm result     @1718268277.2370317
+batch_winner_index = 0
+-----------------------------------epoch 20 end---------------------------------------
+
+#prompt to gpu_0        @1718268277.2484827
+$prompt to gpu_0        @1718268277.2485669
+#process 0 task queue   @1718268277.2486103
+
+#prompt to gpu_1        @1718268277.2486193
+$prompt to gpu_1        @1718268277.2491724
+#process 1 task queue   @1718268277.2491996
+
+#prompt to gpu_2        @1718268277.2492068
+$process 0 task queue        @1718268277.2494903
+#process 0 infer prepare        @1718268277.2495356
+
+$prompt to gpu_2        @1718268277.249697
+#process 2 task queue   @1718268277.249724
+$process 0 infer prepare        @1718268277.2499769
+#process 0 infer one    @1718268277.250011
+$process 1 task queue   @1718268277.2500749
+#process 1 infer prepare        @1718268277.2501175
+$process 1 infer prepare        @1718268277.2505429
+#process 1 infer one    @1718268277.2505774
+$process 2 task queue   @1718268277.2508373
+#process 2 infer prepare        @1718268277.2508936
+$process 2 infer prepare        @1718268277.2512794
+#process 2 infer one    @1718268277.251314
+$process 0 infer one    @1718268277.2902246
+#process 0 infer two    @1718268277.2902462
+$process 1 infer one    @1718268277.2915263
+#process 1 infer two    @1718268277.291547
+$process 2 infer one    @1718268277.306263
+#process 2 infer two    @1718268277.306291
+$process 0 infer two    @1718268277.3102088
+#process 0 infer three  @1718268277.310227
+$process 1 infer two    @1718268277.3117678
+#process 1 infer three  @1718268277.3117847
+$process 0 infer three  @1718268277.3296328
+#process 0 infer four   @1718268277.3296504
+$process 1 infer three  @1718268277.3315096
+#process 1 infer four   @1718268277.3315277
+$process 2 infer two    @1718268277.3380013
+#process 2 infer three  @1718268277.3380203
+$process 0 infer four   @1718268277.3490412
+#process 0 infer one    @1718268277.3490589
+$process 1 infer four   @1718268277.3533745
+#process 1 infer one    @1718268277.353393
+$process 0 infer one    @1718268277.368499
+#process 0 infer two    @1718268277.3685162
+$process 2 infer three  @1718268277.3697429
+#process 2 infer four   @1718268277.3697615
+$process 1 infer one    @1718268277.3734157
+#process 1 infer two    @1718268277.3734336
+$process 0 infer two    @1718268277.387904
+#process 0 infer three  @1718268277.3879213
+$process 1 infer two    @1718268277.3933544
+#process 1 infer three  @1718268277.3933713
+$process 2 infer four   @1718268277.404731
+#process 2 infer one    @1718268277.4047577
+$process 0 infer three  @1718268277.4073446
+#process 0 infer four   @1718268277.4073632
+$process 1 infer three  @1718268277.4135213
+#process 1 infer four   @1718268277.4135392
+$process 0 infer four   @1718268277.4269767
+$process 1 infer four   @1718268277.4354014
+$process 2 infer one    @1718268277.4380765
+#process 2 infer two    @1718268277.4380956
+$process 2 infer two    @1718268277.4700634
+#process 2 infer three  @1718268277.4700813
+$process 2 infer three  @1718268277.502344
+#process 2 infer four   @1718268277.502362
+$process 2 infer four   @1718268277.5389798
+
+ prefix_l: 8
+
+#collect        @1718268277.5509202
+$collect        @1718268277.5516574
+#llm prepare@1718268277.5516856
+$llm prepare@1718268277.5525742
+#llm forward@1718268277.5526016
+verify finished         @1718268277.6918714
+$llm forward    @1718268277.6919057
+#llm result     @1718268277.6919122
+batch_winner_index = 0
+-----------------------------------epoch 21 end---------------------------------------
+
+#prompt to gpu_0        @1718268277.7023182
+$prompt to gpu_0        @1718268277.7023876
+#process 0 task queue   @1718268277.702441
+
+#prompt to gpu_1        @1718268277.7024515
+$prompt to gpu_1        @1718268277.7032235
+#process 1 task queue   @1718268277.7032628
+
+#prompt to gpu_2        @1718268277.703273
+$process 0 task queue @1718268277.7035499
+#process 0 infer prepare        @1718268277.7035882
+
+$prompt to gpu_2        @1718268277.7037868
+#process 2 task queue   @1718268277.703811
+$process 1 task queue   @1718268277.7041306
+#process 1 infer prepare        @1718268277.7041743
+$process 0 infer prepare        @1718268277.7042189
+#process 0 infer one    @1718268277.704256
+$process 1 infer prepare        @1718268277.7045743
+#process 1 infer one    @1718268277.704609
+$process 2 task queue   @1718268277.7048693
+#process 2 infer prepare        @1718268277.704935
+$process 2 infer prepare        @1718268277.7053835
+#process 2 infer one    @1718268277.705422
+$process 0 infer one    @1718268277.742849
+#process 0 infer two    @1718268277.7428696
+$process 1 infer one    @1718268277.7446272
+#process 1 infer two    @1718268277.744658
+$process 2 infer one    @1718268277.7597384
+#process 2 infer two    @1718268277.7597666
+$process 0 infer two    @1718268277.7629726
+#process 0 infer three  @1718268277.7629905
+$process 1 infer two    @1718268277.7649899
+#process 1 infer three  @1718268277.7650073
+$process 0 infer three  @1718268277.7823422
+#process 0 infer four   @1718268277.7823591
+$process 1 infer three  @1718268277.7850022
+#process 1 infer four   @1718268277.7850196
+$process 2 infer two    @1718268277.7921848
+#process 2 infer three  @1718268277.7922134
+$process 0 infer four   @1718268277.8016467
+#process 0 infer one    @1718268277.8016646
+$process 1 infer four   @1718268277.8050678
+#process 1 infer one    @1718268277.8050852
+$process 0 infer one    @1718268277.8209891
+#process 0 infer two    @1718268277.8210063
+$process 2 infer three  @1718268277.8244805
+#process 2 infer four   @1718268277.8245025
+$process 1 infer one    @1718268277.8249667
+#process 1 infer two    @1718268277.824984
+$process 0 infer two    @1718268277.8403168
+#process 0 infer three  @1718268277.8403344
+$process 1 infer two    @1718268277.847647
+#process 1 infer three  @1718268277.8476732
+$process 2 infer four   @1718268277.8565414
+#process 2 infer one    @1718268277.8565617
+$process 0 infer three  @1718268277.8596
+#process 0 infer four   @1718268277.8596172
+$process 1 infer three  @1718268277.8680441
+#process 1 infer four   @1718268277.8680618
+$process 0 infer four   @1718268277.8789093
+$process 1 infer four   @1718268277.8879778
+$process 2 infer one    @1718268277.888355
+#process 2 infer two    @1718268277.8883739
+$process 2 infer two    @1718268277.9217663
+#process 2 infer three  @1718268277.921792
+$process 2 infer three  @1718268277.9536908
+#process 2 infer four   @1718268277.9537091
+$process 2 infer four   @1718268277.9854307
+
+ prefix_l: 8
+
+#collect        @1718268277.9988778
+$collect        @1718268277.999685
+#llm prepare@1718268277.999716
+$llm prepare@1718268278.0006773
+#llm forward@1718268278.0007079
+verify finished         @1718268278.1478798
+$llm forward    @1718268278.1479192
+#llm result     @1718268278.1479259
+batch_winner_index = 0
+-----------------------------------epoch 22 end---------------------------------------
+Processing sentences: 100%|██████████████████████████████████████████| 1/1 [00:10<00:00, 10.49s/it]
+total_infer_time = 10484.756076812744 ms.
+total_generate_tokens = 118
+ mean_per_token_infer_time = 88.85386505773512 ms/token.
+total_accept_num = 118
+total_autoregressive_token_num = 184
+accept_rate = 0.6413043478260869
+[W CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
