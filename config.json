@@ -1,0 +1,41 @@
+{
+  "llm": {
+    "temperature": 0,
+    "GPU": 0,
+    "model": "/share/models/Qwen2.5-14B-Instruct",
+    "__model1__": "/share/models/opt-6.7b",
+    "__model2__": "Qwen/Qwen1.5-7B-Chat"
+  },
+  "ssm": {
+    "temperature": 0,
+    "GPUS": [
+      0,
+      1,
+      2
+    ],
+    "_model_device_map1": [
+      "/share/models/opt-125m",
+      "/share/models/opt-350m",
+      "/share/models/opt-1.3b"
+    ],
+    "_model_device_map2": [
+      "/share/models/Qwen2.5-0.5B-Instruct",
+      "/share/models/Qwen2.5-1.5B-Instruct",
+      "/share/models/Qwen2.5-3B-Instruct"
+    ],
+    "model_device_map": [
+      "/share/models/Qwen2.5-0.5B-Instruct",
+      "/share/models/Qwen2.5-1.5B-Instruct",
+      "/share/models/Qwen2.5-3B-Instruct"
+    ]
+  },
+  "heuristic": false,
+  "max_length": 128,
+  "lookaheads": [
+    8,
+    8,
+    8
+  ],
+  "timeline": false,
+  "interval": 0.1
+}
